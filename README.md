@@ -14,7 +14,7 @@ AC’s have at least (but are not limited to having) the following properties:
 The process which manages the queue of AC’s satisfies the following:
 *	There is no limit on the number of AC’s it can manage
 *	Dequeue aircraft requests result in selection of one AC for removal such that:
-  * Passenger AC’s have removal precedence over Cargo AC’s
- 	* Large AC’s of a given type have removal precedence over Small AC’s of the same type.
+  * Passenger AC’s have removal precedence over Cargo AC’s.
+  * Large AC’s of a given type have removal precedence over Small AC’s of the same type.
   * Earlier enqueued AC’s of a given type and size have precedence over later enqueued AC’s of the same type and size.
 
