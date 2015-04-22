@@ -1,5 +1,4 @@
 # AircraftQueue
-The goal of this exercise is to demonstrate programming ability by developing a simple software subsystem. Work will be done in the Java language.
 
 A software subsystem of an air-traffic control system is defined to manage a queue of aircraft (AC) in an airport. The aircraft queue is managed by a process which responds to three types of requests:
 •	system boot		used to start the system.
