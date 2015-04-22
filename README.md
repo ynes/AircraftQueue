@@ -1,9 +1,10 @@
 # AircraftQueue
 
-A software subsystem of an air-traffic control system is defined to manage a queue of aircraft (AC) in an airport. The aircraft queue is managed by a process which responds to three types of requests:
-•	system boot		used to start the system.
-•	enqueue aircraft		used to insert a new AC into the system.
-•	dequeue aircraft		used to remove an AC from the system.
+A software subsystem of an air-traffic control system is defined to manage a queue of aircraft (AC) in an airport.
+The aircraft queue is managed by a process which responds to three types of requests:
+* system boot		used to start the system.
+* enqueue aircraft		used to insert a new AC into the system.
+* dequeue aircraft		used to remove an AC from the system.
 
 AC’s have at least (but are not limited to having) the following properties:
 
