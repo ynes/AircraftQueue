@@ -3,7 +3,7 @@ require_relative 'ac_queue'
 describe AcQueue do
 
   describe "when boots" do
-    it "should create and initialize all 'size' and 'type' combinations queues in the prioriy order" do
+    it "should create and initialize all 'size' and 'type' combinations queues in the priority order" do
       ac_queue = AcQueue.new
       expect(ac_queue.queues.size).to be(4)
       expect(ac_queue.queues.keys).to eq(["passengerlarge", "passengersmall", "cargolarge", "cargosmall"])
