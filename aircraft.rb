@@ -28,6 +28,10 @@ class Aircraft
     errors << "Invalid size #{size}" unless SIZES.any?{|s| s == size}
     errors.empty?
   end
+
+  def to_s
+    "#{type}-#{size}"
+  end
 end
 
 

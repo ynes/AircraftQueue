@@ -33,5 +33,11 @@ describe Aircraft do
       expect(aircraft3.errors).to eq(["Invalid type commercial"])
     end
   end  
+
+  describe "#to_s" do
+    it "returns a string combination of type and size" do
+      expect(aircraft.to_s).to eq("passenger-large")
+    end
+  end
 end
 
